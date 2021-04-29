@@ -2,14 +2,13 @@ import Head from 'next/head'
 import type { AppProps } from 'next/app'
 
 import Header from '../src/components/Header'
-import { SdkProvider } from '../src/stores/sdk-store'
 
 import '../public/styles/normalize.css'
 import '../public/styles/global.css'
 
 function CustomApp({ Component, pageProps }: AppProps) {
   return (
-    <SdkProvider>
+    <>
       <Head>
         <title>SDK Hackathon</title>
 
@@ -25,7 +24,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
       <main>
         <Component {...pageProps} />
       </main>
-    </SdkProvider>
+    </>
   )
 }
 
