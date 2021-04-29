@@ -1,0 +1,22 @@
+.header {
+  background: #fff;
+  box-shadow: darkgrey 0px 0px 20px -10px;
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+
+.nav a {
+  display: inline-block;
+  color: var(--blue-dark);
+  padding: 0.5rem 1rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}

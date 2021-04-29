@@ -1,0 +1,15 @@
+{
+  "javascript.validate.enable": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 150,
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#5bbb52",
+    "titleBar.inactiveForeground": "#5bbb529d",
+    "titleBar.activeBackground": "#111111",
+    "titleBar.inactiveBackground": "#111111"
+  },
+  "eslint.alwaysShowStatus": true,
+  "javascript.format.enable": false,
+  "editor.formatOnSave": true
+}

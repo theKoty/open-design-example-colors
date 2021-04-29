@@ -1,0 +1,91 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+  --blue: #115df6;
+  --blue-light: #e8f0ff;
+  --blue-dark: #0d3380;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+body,
+button,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.headline-1,
+.headline-2,
+.headline-3,
+.headline-4 {
+  letter-spacing: -0.075rem;
+}
+
+.headline-1 {
+  font-size: 40px;
+}
+
+.headline-2 {
+  font-size: 32px;
+}
+
+.headline-3 {
+  font-size: 24px;
+}
+
+.headline-4 {
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.container {
+  width: 100%;
+  max-width: 65rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 40rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue);
+}
