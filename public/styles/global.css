@@ -39,6 +39,7 @@ h4,
 h5,
 h6 {
   font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: var(--blue-dark);
 }
 
 .headline-1,
