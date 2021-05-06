@@ -11,16 +11,6 @@ export default function Header() {
             <img src='/images/logo.svg' alt='Open Design' />
           </a>
         </Link>
-
-        <nav className={styles.nav}>
-          <Link href='/'>
-            <a>Homepage</a>
-          </Link>
-
-          <Link href='/about'>
-            <a>About</a>
-          </Link>
-        </nav>
       </div>
     </header>
   )
