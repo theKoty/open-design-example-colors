@@ -1,7 +1,13 @@
+import React from 'react'
+
+import DesignFontList from '../src/components/DesignFontList'
+import DesignPreview from '../src/components/DesignPreview'
+
 export default function IndexPage() {
   return (
     <div className='container'>
-      <h1 className='headline-1'>Homepage</h1>
+      <DesignPreview />
+      <DesignFontList />
     </div>
   )
 }
