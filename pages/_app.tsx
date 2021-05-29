@@ -10,7 +10,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>SDK Hackathon</title>
+        <title>SDK Example: Colors</title>
 
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         <link

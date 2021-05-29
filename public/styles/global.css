@@ -41,11 +41,21 @@ h6 {
   font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+section {
+  margin-bottom: 4rem;
+}
+
 .headline-1,
-.headline-2,
-.headline-3,
-.headline-4 {
+.headline-2 {
   letter-spacing: -0.075rem;
+}
+
+.headline-1 + p,
+.headline-2 + p,
+.headline-3 + p,
+.headline-4 + p {
+  margin-top: -1.25rem;
+  margin-bottom: 2.5rem;
 }
 
 .headline-1 {
@@ -57,11 +67,16 @@ h6 {
 }
 
 .headline-3 {
+  margin-top: 2.5rem;
   font-size: 24px;
 }
 
 .headline-4 {
   font-size: 20px;
+}
+
+.paragraph {
+  color: #5e5e5e;
 }
 
 p {

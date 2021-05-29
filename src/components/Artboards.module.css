@@ -1,0 +1,15 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.image {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  box-shadow: 0 0.25rem 1rem 0rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+}
