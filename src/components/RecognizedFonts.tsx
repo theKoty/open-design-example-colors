@@ -14,7 +14,7 @@ interface Props {
 export default function RecognizedFonts(props: Props) {
   return (
     <div>
-      <h2>Design fonts</h2>
+      <h2 className='headline-2'>Design fonts</h2>
       {props.fonts.map((desc, index) => (
         <RecognizedFontFamily key={index} desc={desc} />
       ))}
