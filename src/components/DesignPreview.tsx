@@ -20,7 +20,7 @@ export default function DesignPreview() {
 
   return (
     <>
-      <h2>Design preview</h2>
+      <h2 className='headline-2'>Design preview</h2>
       <div className={styles.container}>
         {loading && !imagesPaths.length && <div className={styles.placeholder} />}
         {imagesPaths.map((imagePath, index) => (

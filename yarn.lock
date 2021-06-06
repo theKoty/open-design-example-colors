@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@avocode/cancel-token@1.4.0-rc.14":
-  version "1.4.0-rc.14"
-  resolved "https://registry.yarnpkg.com/@avocode/cancel-token/-/cancel-token-1.4.0-rc.14.tgz#dda3646065877581647f7fa802f5a6de6a38f100"
-  integrity sha512-myRAFqptb47FAY/DefSsN7PXiKzqBHazLU6+MCg5vdfRIh4S3QNhfRpTiuwTb+IGeIhuTEB+NtVOJS600lKLEA==
+"@avocode/cancel-token@1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@avocode/cancel-token/-/cancel-token-1.4.0.tgz#a0d9fcbf9062d8035f59bd85db43d9118082f77e"
+  integrity sha512-5xDaoVqYKmE2n55brwGDQfKS/n7z2Ugci0UCm4PAOsYaRugo/82jQHOL/UmENaqOylJGW80v6vbNH3Uu8wOlMA==
   dependencies:
     abort-controller "3.0.0"
 
@@ -174,40 +174,40 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@opendesign/api@0.1.3-rc.2":
-  version "0.1.3-rc.2"
-  resolved "https://registry.yarnpkg.com/@opendesign/api/-/api-0.1.3-rc.2.tgz#dd9262bc1b1f6f49f4ac790183c841e2d9641918"
-  integrity sha512-5HkDr5bYn2m/GU4Oau/RBxeU3VPnbQRK0fA53ila75QNbMDbX0UJ4Q13y9gc2gZXBCkcmNy6elbvhAKQreNqmg==
+"@opendesign/api@0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@opendesign/api/-/api-0.1.3.tgz#d0ea9789f56ef892f55651a67b00842d6e9cac74"
+  integrity sha512-6epBCsxaKWIXQUVnR1bquq3NvxOOSuwGUuUfAWbsH8sGVcJF9g56/DXrgcNNEadFzetXBT5q3lb126TalLD0lQ==
   dependencies:
-    "@avocode/cancel-token" "1.4.0-rc.14"
+    "@avocode/cancel-token" "1.4.0"
     cplus "2.0.1"
     form-data "4.0.0"
     node-fetch "3.0.0-beta.9"
 
-"@opendesign/octopus-reader@0.1.3-rc.2":
-  version "0.1.3-rc.2"
-  resolved "https://registry.yarnpkg.com/@opendesign/octopus-reader/-/octopus-reader-0.1.3-rc.2.tgz#d9aea6458f0e6ea7ea77883e36796ff1267c71cd"
-  integrity sha512-cnVyW7/dEbN/6KlZJE+UGxpjgB+lrrfaj7AMtf0ZGw09c3MDx4/8UiLpaTW0uUA0+43c/oK+b4STjtIqVMz3Gw==
+"@opendesign/octopus-reader@0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@opendesign/octopus-reader/-/octopus-reader-0.1.3.tgz#a69466859c9cbc119e99be95e90866e759614f6a"
+  integrity sha512-vs7bdL0nSIUaHiMhSZK6ozq9rYxK1cTStla6CuO5FeUEkKCFLhiSSb2Yb+KYZuUjXtTVA+EQI4tl/BzuvcOGoA==
 
-"@opendesign/rendering@0.1.3-rc.2":
-  version "0.1.3-rc.2"
-  resolved "https://registry.yarnpkg.com/@opendesign/rendering/-/rendering-0.1.3-rc.2.tgz#4144d60a7af0ffcf8804ed8efc5bb43e92ddafa8"
-  integrity sha512-hQQgUXTQM7tuxDyaRnsuzenn7MIHmDaipxG7QosUoZjDNJvHhmmpVTYXJMAnW4nCkAgw/6rqXaEIOVragjxx/Q==
+"@opendesign/rendering@0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@opendesign/rendering/-/rendering-0.1.3.tgz#ac0dc837bd1ccc24acf9c82c7defd5e200fd6499"
+  integrity sha512-268l4zbLZNWbedsZ6s71TxGvZCoT/iyG6YNfx76Jre56MI/wnngTc4HvKTT0FsGNWE7ufnBDfV+upOzHqoBFSg==
   dependencies:
     "@avocode/monroe-cli" "0.1.0"
     cplus "2.0.1"
 
-"@opendesign/sdk@^0.1.3-rc.2":
-  version "0.1.3-rc.2"
-  resolved "https://registry.yarnpkg.com/@opendesign/sdk/-/sdk-0.1.3-rc.2.tgz#cfe3bc4983f8c4c28d0538e2de64808612d25e80"
-  integrity sha512-6U1Jh7+NA94m+Wm8leSc0Ae+M0bT+1k6ykqSmvlLoB9kceq/yANmUJTY4N6tYd86kU2POs0lbLW7R3ldVTN/Dw==
+"@opendesign/sdk@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@opendesign/sdk/-/sdk-0.1.3.tgz#4fa1a149fd27aac7ba024a5492dc9c7227dd3164"
+  integrity sha512-hUWGwwODhM5o6LCB8IsaBVetVMYR+6ViOcmaCf76j8KaOzI12yURsQtQjSwXFNz8TeU0XntdNAXHT+DaPHZpiA==
   dependencies:
-    "@avocode/cancel-token" "1.4.0-rc.14"
+    "@avocode/cancel-token" "1.4.0"
     "@avocode/fontkit" "1.7.7-avocode.6"
     "@avocode/system-font-families" "0.5.0-rc.6"
-    "@opendesign/api" "0.1.3-rc.2"
-    "@opendesign/octopus-reader" "0.1.3-rc.2"
-    "@opendesign/rendering" "0.1.3-rc.2"
+    "@opendesign/api" "0.1.3"
+    "@opendesign/octopus-reader" "0.1.3"
+    "@opendesign/rendering" "0.1.3"
     cplus "2.0.1"
     fs-extra "^9.1.0"
     mkdirp "1.0.4"
