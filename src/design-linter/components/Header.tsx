@@ -7,20 +7,10 @@ export default function Header() {
     <header className={styles.header}>
       <div className={classnames(styles.container, 'container')}>
         <Link href='/'>
-          <a>
+          <a className={styles.container}>
             <img src='/images/logo.svg' alt='Open Design' />
           </a>
         </Link>
-
-        <nav className={styles.nav}>
-          <Link href='/'>
-            <a>Homepage</a>
-          </Link>
-
-          <Link href='/about'>
-            <a>About</a>
-          </Link>
-        </nav>
       </div>
     </header>
   )

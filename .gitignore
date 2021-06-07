@@ -34,5 +34,6 @@ yarn-error.log*
 # vercel
 .vercel
 
-# opendesign
+# temp data
 .opendesign
+/public/artboard*

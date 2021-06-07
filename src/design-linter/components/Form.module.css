@@ -1,0 +1,26 @@
+.form {
+  padding: 2rem;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.formRow:last-of-type {
+  border-bottom: 0;
+}
+
+.inputLabel {
+  flex: 1;
+}
+
+.input {
+  flex: 2;
+}
+
+.submitButton {
+  margin-left: auto;
+}

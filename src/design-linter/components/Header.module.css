@@ -11,6 +11,11 @@
   height: 4rem;
 }
 
+.appName {
+  padding-top: 2px;
+  padding-left: 1rem;
+}
+
 .nav a {
   display: inline-block;
   color: var(--blue-dark);

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import type { AppProps } from 'next/app'
 
-import Header from '../src/components/Header'
+import Header from '../src/design-linter/components/Header'
 
 import '../public/styles/normalize.css'
 import '../public/styles/global.css'
@@ -10,7 +10,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>SDK Hackathon</title>
+        <title>SDK Example - Linter</title>
 
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         <link
